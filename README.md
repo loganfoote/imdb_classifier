@@ -1,5 +1,5 @@
 # IMDb Review Sentiment Classifier 
-This project provides classical ML and deep learning models for classifying IMDb reviews by negative or positive sentiment. We start with data loading and exploratory analysis, followed by text vectorization and training using several classical MLO models. 
+This project provides classical ML and deep learning models for classifying IMDb reviews by negative or positive sentiment. We start with data loading and exploratory analysis, followed by text vectorization and training using several classical ML models. 
 
 ## Dataset 
 The dataset used is the [IMDb Large Movie Review Dataset](http://www.aclweb.org/anthology/P11-1015), which contains 25,000 training and 25,000 testing reviews.
