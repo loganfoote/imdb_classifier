@@ -3,15 +3,15 @@ import pandas as pd
 
 def load_imdb_data(data_dir, subset = 'train'):
     """
-    Load IMDb review dataset 
+    Load IMDb review dataset. 
 
     Parameters:
-    data_dir (str): directory containing the dataset 
-    subset (str): 'train' for train dataset, 'test' for test dataset
+    data_dir (str): directory containing the dataset. 
+    subset (str): 'train' for train dataset, 'test' for test dataset.
 
     Returns:
     pd.DataFrame: column 'review' is the review (str), column 'label' is 0 for 
-        a negative review, 1 for a positive review 
+        a negative review, 1 for a positive review.
     """
     directory = os.path.join(data_dir, subset)
     neg_dir = os.path.join(directory, 'neg') 
